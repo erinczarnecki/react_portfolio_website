@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-// import Logo1 from '../assets/images/icons/Logo-black.png';
+import React, { useState } from 'react';
 import Logo2 from '../assets/images/icons/Logo-white.png';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
@@ -11,32 +10,18 @@ import { Link } from 'react-scroll';
 const Navbar = () => {
 
     const [nav, setNav] = useState(true);
-    const [color, setColor] = useState("transparent");
-    const [textColor, setTextColor] = useState("white");
 
     const handleNav = () => {
         setNav(!nav);
     };
 
-    // Change Nav bar colors
-    useEffect(() => {
-        const changeColor = () => {
-            if (window.scroolY >= 90) {
-                setColor("#ffffff");
-                setTextColor("#000000");
-            } else {
-                setColor("transparent");
-                setTextColor("white");
-            }
-        };
-        window.addEventListener('scroll', changeColor);
-    }, []);
+
 
 
 
 
     return (
-        <div style={{ backgroundColor: `${color}` }} className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300" >
             <div>
                 <a href="/">
                     <img src={Logo2} alt="logo" style={{ width: "50px" }} />
@@ -44,13 +29,12 @@ const Navbar = () => {
             </div>
 
             {/* Menu */}
-            <ul style={{ color: `${textColor}` }} className="hidden md:flex">
-                <li className="text-xl"><Link to="home" smooth={true} duration={300} s >Home</Link></li>
-                <li className="text-xl"><Link to="about" smooth={true} duration={300} >About</Link></li>
-                {/* <li className="text-xl"><Link to="experience" smooth={true} duration={300}>Experience</Link></li> */}
-                <li className="text-xl"><Link to="skills" smooth={true} duration={300} >Skills</Link></li>
-                <li className="text-xl"><Link to="projects" smooth={true} duration={300} >Projects</Link></li>
-                <li className="text-xl"><Link to="contect" smooth={true} duration={300} >Contact</Link></li>
+            <ul className="hidden md:flex">
+                <li className="text-xl"><Link to="home" smooth={true} duration={700}>Home</Link></li>
+                <li className="text-xl"><Link to="about" smooth={true} duration={700} >About</Link></li>
+                <li className="text-xl"><Link to="skills" smooth={true} duration={700} >Skills</Link></li>
+                <li className="text-xl"><Link to="projects" smooth={true} duration={700} >Projects</Link></li>
+                <li className="text-xl"><Link to="contact" smooth={true} duration={700} >Contact</Link></li>
             </ul>
 
             {/* Hamburger */}
@@ -61,12 +45,21 @@ const Navbar = () => {
             {/* Mobile Menu */}
             <div className={nav ? 'hidden' : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex justify-center items-center"}>
                 <ul>
-                    <li className="py-4 text-4xl">Home</li>
-                    <li className="py-4 text-4xl">About</li>
-                    {/* <li className="py-4 text-4xl">Experience</li> */}
-                    <li className="py-4 text-4xl">Skills</li>
-                    <li className="py-4 text-4xl">Projects</li>
-                    <li className="py-4 text-4xl">Contact</li>
+                    <li className="py-4 text-4xl">
+                        <Link onClick={handleNav} to='home' smooth={true} duration={500}>Home</Link>
+                    </li>
+                    <li className="py-4 text-4xl">
+                        <Link onClick={handleNav} to='about' smooth={true} duration={500}>About</Link>
+                    </li>
+                    <li className="py-4 text-4xl">
+                        <Link onClick={handleNav} to='skills' smooth={true} duration={500}>Skills</Link>
+                    </li>
+                    <li className="py-4 text-4xl">
+                        <Link onClick={handleNav} to='projects' smooth={true} duration={500}>Projects</Link>
+                    </li>
+                    <li className="py-4 text-4xl">
+                        <Link onClick={handleNav} to='contact' smooth={true} duration={500}>Contact</Link>
+                    </li>
                 </ul>
             </div>
 
@@ -87,16 +80,20 @@ const Navbar = () => {
                     </li>
                     <li className="w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] ease-in duration-300 bg-[#db4437] rounded-r-full">
                         <a className="flex justify-between items-center w-full text-gray-200"
-                            href="/" target="_blank">
+                            href="mailto:erinczarnecki1@gmail.com">
                             Email <HiOutlineMail size={30} />
                         </a>
                     </li>
+
+                    {/* RESUME */}
                     <li className="w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] ease-in duration-300 bg-[#d5a021] rounded-r-full">
                         <a className="flex justify-between items-center w-full text-gray-100"
-                            href="/" target="_blank">
+                            href="https://drive.google.com/file/d/129DVSph6TXsoDMT1MCoYnLBCq6Z6Uge2/view?usp=sharing" target="_blank" rel="noreferrer">
                             Resume <BsFillPersonLinesFill size={30} />
                         </a>
                     </li>
+
+
                 </ul>
             </div>
         </div >
