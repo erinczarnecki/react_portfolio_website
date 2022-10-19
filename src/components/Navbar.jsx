@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo2 from '../assets/images/icons/Logo-white.png';
+import Logo2 from '../images/icons/Logo-white.png';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
@@ -30,11 +30,11 @@ const Navbar = () => {
 
             {/* Menu */}
             <ul className="hidden md:flex">
-                <li className="text-xl"><Link to="home" smooth={true} duration={700}>Home</Link></li>
-                <li className="text-xl"><Link to="about" smooth={true} duration={700} >About</Link></li>
-                <li className="text-xl"><Link to="skills" smooth={true} duration={700} >Skills</Link></li>
-                <li className="text-xl"><Link to="projects" smooth={true} duration={700} >Projects</Link></li>
-                <li className="text-xl"><Link to="contact" smooth={true} duration={700} >Contact</Link></li>
+                <li className="text-xl hover:text-pink-600 hover:ease-in hover:duration-300"><Link to="home" smooth={true} duration={700}>Home</Link></li>
+                <li className="text-xl hover:text-pink-600  hover:ease-in hover:duration-300"><Link to="about" smooth={true} duration={700} >About</Link></li>
+                <li className="text-xl hover:text-pink-600  hover:ease-in hover:duration-300"><Link to="skills" smooth={true} duration={700} >Skills</Link></li>
+                <li className="text-xl hover:text-pink-600  hover:ease-in hover:duration-300"><Link to="projects" smooth={true} duration={700} >Projects</Link></li>
+                <li className="text-xl hover:text-pink-600  hover:ease-in hover:duration-300"><Link to="contact" smooth={true} duration={700} >Contact</Link></li>
             </ul>
 
             {/* Hamburger */}
@@ -88,7 +88,7 @@ const Navbar = () => {
                     {/* RESUME */}
                     <li className="w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] ease-in duration-300 bg-[#d5a021] rounded-r-full">
                         <a className="flex justify-between items-center w-full text-gray-100"
-                            href="https://drive.google.com/file/d/129DVSph6TXsoDMT1MCoYnLBCq6Z6Uge2/view?usp=sharing" target="_blank" rel="noreferrer">
+                            href="https://drive.google.com/file/d/1udDmVaFEhtzXom1L77BgFodycEcQOw2H/view?usp=sharing" target="_blank" rel="noreferrer">
                             Resume <BsFillPersonLinesFill size={30} />
                         </a>
                     </li>

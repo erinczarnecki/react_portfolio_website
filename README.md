@@ -1,155 +1,100 @@
-# Project Name
-> Outline a brief description of your project.
-> Live demo [_here_](https://responsive-react-css-modules-erinczar.netlify.app/). <!-- If you have the project hosted somewhere, include the link here. -->
+# Person Profile Portfolio  
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Features](#features)
-* [Screenshots](#screenshots)
-* [Setup](#setup)
-* [Usage](#usage)
-* [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
-<!-- * [License](#license) -->
+## Table of Contents  
+- [Person Profile Portfolio](#person-profile-portfolio)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+    - [Objectives](#objectives)
+    - [Screenshots](#screenshots)
+      - [**Desktop**](#desktop)
+      - [**Active State**](#active-state)
+      - [**Mobile**](#mobile)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built With](#built-with)
+    - [What I Learned](#what-i-learned)
+    - [**Continued Development**](#continued-development)
+  - [Author](#author)
 
-## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+***
+***
+## Overview
+A single-page-application built to showcase skills, past experience, and provide contact options. Use GitHub and Netlify to store/host website for low-cost solution.  
+***
 
+### Objectives
 
-## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+Users should be able to:
 
+- Navigate easily on all screen sizes with visible and/or intuitive linking
+- View the optimal layout for the page depending on their device's screen size
+  - Create collapsible navigation to save space on smaller screen
+  - Hide fixed side (social) links when viewing on smaller screen
+- See hover states for all interactive elements on the page
+- Fill out and send email through the embedded contact form
+***
 
-## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+### Screenshots  
+ 
+ #### **Desktop**  
+![Hero](./src/images/design-screenshots/Hero.png)  
 
+***
+#### **Active State** 
+![Active - Hero](./src/images/design-screenshots/Hero-Active.png)  
+![Active - Side Social Links](./src/images/design-screenshots/Hero-Side-Links.png)  
+![Active - Projects](./src/images/design-screenshots/Projects-Active.png)  
+![Active - Contact](./src/images/design-screenshots/Contact-Active.png)  
+***
+#### **Mobile**  
+![Mobile - Hero](./src/images/design-screenshots/Hero-Mobile.png)  
+![Mobile - Navigation](./src/images/design-screenshots/Nav-Mobile.png)  
+![Mobile - Contact](./src/images/design-screenshots/Contact-Mobile.png)  
 
-## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+***
+### Links
 
-## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+- Solution URL: [GitHub Code](https://github.com/erinczarnecki/react_portfolio_website)
+- Live Site URL: [Live Site](https://erinczar-portfolio.netlify.app)  
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
+***
+***
+## My process
 
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
+### Built With
 
-`write-your-code-here`
+- React JS
+- Tailwind CSS
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+  
+***
 
+### What I Learned
 
-## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+- I used this project to explore TailwindCSS and imporve my React JS knowledge. I enjoyed being able to use the styling inside the JSX components, but I think there is room for improvement (especially in regards to DRY coding).  
+- TailwindCSS uses a mobile first breakpoint system, and I struggled to create a medium/tablet screen layout that made use of the larger screen without compromising the component visibility.  
+- If I were to start this project over...  
+  -  I would try to wireframe 3 distinct layouts from the beginning rather than try to merge aspects of the small/large on-the-spot. 
+  - The application feels a bit overloaded with information, so I think I would start with a MPA module from the beginning and build out components on their own pages 
 
+  
+***
+  
 
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
+### **Continued Development**
 
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
+- In the future, I would like to reformat this from a SPA to Multi-Page-Application where I can add greater detail to the projects and contact options. 
+- Apart from this project, I would like to take the skills I've learned to recreate some static sites/pages with React
+- Next I would like to continue improving my React skills by learning [React Native](https://reactnative.dev/)
 
-To do:
-- Feature to be added 1
-- Feature to be added 2
+  
+***
+***
+## Author
 
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
-
-
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
-
-# Getting Started with Create React App
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Website - [Erin Czarnecki](https://www.your-site.com)
+- Frontend Mentor - [@erinczar](https://www.frontendmentor.io/profile/erinczar)
+- GitHub - [@erinczarnecki](https://github.com/erinczarnecki)
+- [LinkedIn](https://linkedin.com/in/erin-czarnecki)

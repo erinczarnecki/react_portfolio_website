@@ -14,7 +14,8 @@ const Home = () => {
                 <h2 className="text-3xl sm:text-6xl font-bold text-[#8892b0] pl-3">I'm a Full Stack Developer</h2>
                 <p className="text-[#8892b0] py-4 max-w-[700px] text-2xl sm:4xl px-3">Focused on building responsive web applications that deliver a positive user experience</p>
                 <div className="px-3">
-                    <Link to="projects" smooth={true} duration={700}>                        <button className="text-white group border-2 px-6 py-3 my-2 flex items-center text-xl max-w-[800px] hover:bg-pink-600 hover:border-pink-600">View Work
+                    <Link to="projects" smooth={true} duration={700}>
+                        <button className="text-white group border-2 px-6 py-3 my-2 flex items-center text-xl max-w-[800px] hover:bg-pink-600 hover:border-pink-600">View Coding Projects
                     <span className="group-hover:rotate-90 duration-300">
                             <HiArrowNarrowRight className="ml-2" />
                         </span>

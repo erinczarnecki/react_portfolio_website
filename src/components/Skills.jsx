@@ -1,22 +1,22 @@
 import React from 'react';
-import HTML from '../assets/images/icons/html.png';
-import CSS from '../assets/images/icons/css.png';
-import JavaScript from '../assets/images/icons/javascript.png';
-import ReactImg from '../assets/images/icons/react.png';
-import Node from '../assets/images/icons/node.png';
-import AWS from '../assets/images/icons/aws.png';
-import Tailwind from '../assets/images/icons/tailwind.png';
-import Python from "../assets/images/icons/python.png";
-import Java from "../assets/images/icons/java.png";
-import PostgreSQL from "../assets/images/icons/postgresql.png";
-import Spring from "../assets/images/icons/spring.png";
-import Bootstrap from "../assets/images/icons/bootstrap.png";
+import HTML from '../images/icons/html.png';
+import CSS from '../images/icons/css.png';
+import JavaScript from '../images/icons/javascript.png';
+import ReactImg from '../images/icons/react.png';
+import Node from '../images/icons/node.png';
+import AWS from '../images/icons/aws.png';
+import Tailwind from '../images/icons/tailwind.png';
+import Python from "../images/icons/python.png";
+import Java from "../images/icons/java.png";
+import PostgreSQL from "../images/icons/postgresql.png";
+import Spring from "../images/icons/spring.png";
+import Bootstrap from "../images/icons/bootstrap.png";
 
 
 
 const Skills = () => {
     return (
-        <div name="skills" className="w-full sm:h-screen bg-[#0a192f] text-gray-200 px-4">
+        <div name="skills" className="w-full md:h-screen bg-[#0a192f] text-gray-200 px-4">
             {/* Skills Container */}
             <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
 

@@ -1,5 +1,7 @@
 import React from 'react';
-import ReactAppImg from '../assets/images/ReactAppImg.png';
+import ReactAppImg from '../images/project-images/ReactAppImg.png';
+import HuddleImg from '../images/project-images/HuddleImg.png'
+import PreviewImg from '../images/project-images/PreviewImg.png'
 
 const Projects = () => {
     return (
@@ -31,13 +33,13 @@ const Projects = () => {
                             {/* App Link */}
                             <div className='pt-8 text-center'>
                                 <a href='https://erinczar-responsive-react-css-modules.netlify.app/' target="_blank" rel="noreferrer">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#0a192f] hover:text-white'>
                                         Demo</button>
                                 </a>
 
                                 {/* GitHub Link */}
                                 <a href='https://github.com/erinczarnecki/Responsive_React_Website-CSS_Modules' target="_blank" rel="noreferrer">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#0a192f] hover:text-white'>
                                         Code</button>
                                 </a>
                             </div>
@@ -47,50 +49,50 @@ const Projects = () => {
 
 
                     {/* Project 2 */}
-                    {/* <div
-                        style={{ backgroundImage: `url(${ReactAppImg})` }}
-                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'> */}
+                    <div
+                        style={{ backgroundImage: `url(${HuddleImg})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' id="huddle-img">
 
                     {/* Hover Effects */}
-                    {/* <div className='opacity-0 group-hover:opacity-100'>
+                    <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Application</span>
+                                Huddle Landing Page</span>
                             <div className='pt-8 text-center'>
-                                <a href='https://erinczar-responsive-react-css-modules.netlify.app/' target="_blank" rel="noreferrer">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                <a href='https://erinczarnecki.github.io/FEM_Huddle-Landing-Page/' target="_blank" rel="noreferrer">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#0a192f] hover:text-white'>
                                         Demo</button>
                                 </a>
-                                <a href='https://github.com/erinczarnecki/Responsive_React_Website-CSS_Modules' target="_blank" rel="noreferrer">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                <a href='https://github.com/erinczarnecki/FEM_Huddle-Landing-Page' target="_blank" rel="noreferrer">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#0a192f] hover:text-white'>
                                         Code</button>
                                 </a>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
 
 
 
                     {/* Project 3 */}
-                    {/* <div
-                        style={{ backgroundImage: `url(${ReactAppImg})` }}
-                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'> */}
+                    <div
+                        style={{ backgroundImage: `url(${PreviewImg})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* Hover Effects */}
-                    {/* <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Application</span>
+                    <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider text-center'>
+                                Product Preview Card</span>
                             <div className='pt-8 text-center'>
-                                <a href='https://erinczar-responsive-react-css-modules.netlify.app/' target="_blank" rel="noreferrer">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                <a href='https://erinczarnecki.github.io/FEM_Product-Preview-Card/' target="_blank" rel="noreferrer">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#0a192f] hover:text-white'>
                                         Demo</button>
                                 </a>
-                                <a href='https://github.com/erinczarnecki/Responsive_React_Website-CSS_Modules' target="_blank" rel="noreferrer">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                <a href='https://github.com/erinczarnecki/FEM_Product-Preview-Card' target="_blank" rel="noreferrer">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#0a192f] hover:text-white'>
                                         Code</button>
                                 </a>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
 
 
 

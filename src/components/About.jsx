@@ -1,5 +1,5 @@
 import React from 'react';
-import ErinImg from '../assets/images/Erin.jpeg';
+import ErinImg from '../images/Erin.jpeg';
 const About = () => {
     return (
         <div name="about" className="w-full h-screen text-gray-200 bg-[#0a192f]">
@@ -40,8 +40,8 @@ const About = () => {
                                 </p>
                         </div>
                     </div>
-                    <div className="hidden sm:flex justify-start px-[8%] sm:px-auto md:justify-center md:items-center ">
-                        <img src={ErinImg} alt="Erin Czarnecki" className="w-[90%] max-w-[350px] sm:max-w-[90%]" />
+                    <div className="hidden md:flex justify-start px-[8%] sm:px-auto sm:justify-center md:items-center ">
+                        <img src={ErinImg} alt="Erin Czarnecki" className="w-[90%] max-w-[350px] md:max-w-[90%]" />
                     </div>
                 </div>
             </div>
