@@ -1,7 +1,7 @@
-# Person Profile Portfolio  
+# Personal Profile Portfolio  
 
 ## Table of Contents  
-- [Person Profile Portfolio](#person-profile-portfolio)
+- [Personal Profile Portfolio](#person-profile-portfolio)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
     - [Objectives](#objectives)
